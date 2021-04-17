@@ -40,7 +40,7 @@
   color: var(--main-color);
 }
 .my-photo {
-  background-image: url(../images/myphoto.png);
+  background-image: url(images/myphoto.png);
   background-size: cover;
   background-repeat: no-repeat;
   border: 1px solid var(--sec-color);
@@ -52,7 +52,7 @@
   left: 10%;
 }
 .main-heading {
-  background-image: url(../images/intro\ bg.png);
+  background-image: url(images/intro\ bg.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 150%;
@@ -74,7 +74,7 @@
   margin-right: 50px;
 }
 .style-pic {
-  background-image: url(../images/style\ bg.png);
+  background-image: url(images/style\ bg.png);
   background-size: contain;
   background-repeat: no-repeat;
   height: 122px;
@@ -166,7 +166,7 @@
 .contact-photo {
   height: 288px;
   width: 215px;
-  background-image: url(../images/aboutme-photo.PNG);
+  background-image: url(images/aboutme-photo.PNG);
   border: 8px solid #2f2f2f;
   background-size: cover;
   background-repeat: no-repeat;
@@ -243,7 +243,7 @@
 .myexp-vector{
   width: 40%;
   height: 585px;
-  background-image: url(../images/myexperties-vetor.svg);
+  background-image: url(images/myexperties-vetor.svg);
  background-size: contain;
  background-repeat: no-repeat;
 }
@@ -283,17 +283,17 @@
   max-width: 40%;
 }
 .p1{
-  background-image: url(../images/dev-quiz.svg);
+  background-image: url(images/dev-quiz.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .p2{
-  background-image: url(../images/todo-project.svg);
+  background-image: url(images/todo-project.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .p3{
-  background-image: url(../images/dev-quiz.svg);
+  background-image: url(images/dev-quiz.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
