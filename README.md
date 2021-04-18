@@ -60,30 +60,67 @@ Change and Customization
 
 * * * * *
 
-Just change the **index.html** and **style.css**
+Just change the `index.html` and `style.css`
 
 For customizarion you have to follow the following instruction to get
 your own personal portfolio ready!
 
 ### Nav bar changings
 
-![](images/guide%20pics/nav-bar.PNG)
+```html
+</div>
+  <div class="col my-1">
+   <a href="#my-project-heading" class="portfolio text-decoration-none"><small>Work</small></a>
+   </div>
+   <div class="col my-1">
+   <a href="#" class="contact text-decoration-none"><small>Blog</small></a>
+   </div>
+   <div class="col my-1">
+   <a href="#contact-heading" class="contact text-decoration-none"><small>Contact</small></a>
+   </div>
+</div>
 
-change the text in the *small* tags
+```
+
+change the text in the `small` tags
 
 ### Social Medai links of Intro Page
 
-![](images/guide%20pics/socail%20media%20links%20on%20intro%20page.PNG)
+```html
+ <!-- Main intro -->
+        <div class="intro-container">
+            <div class="main-heading">             
+            <!-- My social Media -->
+            <div class="socailMedia">
+                <a href="https://github.com/fahadhassan1213" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/fahad-hassan-70060320b/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/FahadHa51773545" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://web.facebook.com/fahad.hassan.9847867" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/fahad_malik_0/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
 
-change the links in *href* attributes
+```
+change the links in `href` attributes
 
 ### Picture of Into page
 
-![](images/guide%20pics/myphoto.PNG)
-
-To change the picture, got to **style.css** file and check (.my-photo)
-class selector and just change the url path of background-image \
- property to the image. and add the path of your image
+```css
+.my-photo {
+  background-image: url(images/myphoto.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid var(--sec-color);
+  border-bottom-left-radius: 20%;
+  height: 84%;
+  width: 28%;
+  position: relative;
+  top: 7%;
+  left: 10%;
+}
+```
+To change the picture, got to `style.css` file and check `.my-photo`
+class selector and just change the url path of `background-image`
+property to the image. and add the path of your image
 
 ### Name
 
@@ -101,12 +138,29 @@ your own desirability
 
 ### Background images of Projects page
 
-![](images/guide%20pics/projects-bg-images.PNG)
+```css
+.p1{
+  background-image: url(images/dev-quiz.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.p2{
+  background-image: url(images/todo-project.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.p3{
+  background-image: url(images/dev-quiz.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-To change the background images, got to **style.css** file and check
-.p1, .p2, .p3 class selector and just change the url paths of
-background-image 
- property to the image. and add the path of your image
+```
+
+To change the background images, got to `style.css` file and check
+`p1` , `.p2` , `.p3` class selector 
+
+and just change the url paths of`background-image` property to the image. and add the path of your image
 
 
 ### To change the text of My Experties page
@@ -122,10 +176,10 @@ need
 
 ![](images/guide%20pics/icons%20of%20myexp.PNG)
 
-Icons are picked from [](https://www.fontawesome.com) To add new icons
-you just have to change classes of the icons(Note: make sure change and
-pickup 
- correct classes to change the icons )
+Icons are picked from [fontawesome.com](https://www.fontawesome.com) ,to add new icons
+you just have to change classes of the icons
+
+(Note: make sure change and pickup correct classes to change the icons )
 
 
 
@@ -133,20 +187,42 @@ pickup
 
 ![](images/guide%20pics/contact-me.PNG)
 
-change the links in *href* attributes
+change the links in `href` attributes
 
-To change the picture, got to **style.css** file and check
-(.contact-photo) class selector and just change the url path of
-background-image \
- property to the image. and add the path of your image
+To change the picture, got to `style.css` file and check
+`.contact-photo` class selector
 
-![](images/guide%20pics/contact-photo.PNG)
+and just change the url path of `background-image` property to the image. and add the path of your image
+
+```css
+.contact-photo {
+  height: 288px;
+  width: 215px;
+  background-image: url(images/aboutme-photo.PNG);
+  border: 8px solid #2f2f2f;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 10%;
+  left: 34%;
+  z-index: 2;
+}
+
+```
 
 
 ### To change the color theme of portfolio
 
-![](images/guide)
-Go to **style.css** file and on the top you see the **:root** selector, change the color of --main-color.
+```css
+@charset "utf-8";
+
+:root{
+  --main-color: #f26c4f;
+  --sec-color:whitesmoke;
+}
+
+```
+Go to `style.css` file and on the top you see the `:root` selector, change the color of --main-color.
 You will get your own portfolio with your own color theme 
 
 Deployment
