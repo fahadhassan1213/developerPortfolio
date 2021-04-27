@@ -1,0 +1,1077 @@
+@charset "utf-8";
+
+:root{
+  --main-color: #f26c4f;
+  --sec-color:whitesmoke;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Navigation Bar */
+.phone-navbar{
+  display: none;
+}
+.navbar{
+  background-color: #222222 ;
+}
+.phoneNav-upper-bg{
+  background-color: #1F1F1F;
+}
+.links{
+  display: flex;
+  justify-content: space-between;
+}
+.links a{
+  text-decoration: 2px underline #2f2f2f;
+  color: whitesmoke;
+  font-weight: lighter;
+  font-size: 0.9rem;
+}
+.links a:hover{
+  color: gray;
+}
+
+
+.my-header{
+  width: 100%;
+}
+.my-logo-image {
+  display: inline;
+  width: 70px;
+}
+.my-nav-bar a {
+  font-family: "Open Sans", sans-serif;
+  color: var(--sec-color);
+  height: auto;
+}
+.my-image {
+  width: 300px;
+}
+
+/* Intro Section */
+.intro-container {
+  width: 100%;
+  display: flex;
+  color: var(--sec-color);
+
+}
+.intro-container .Contact-text {
+  font-size: 0.7rem;
+  color: var(--main-color);
+}
+.navBar-container a:hover{
+  color: var(--main-color);
+}
+.my-photo {
+  background-image: url(../images/myphoto.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid var(--sec-color);
+  border-bottom-left-radius: 20%;
+  height: 84%;
+  width: 28%;
+  position: relative;
+  top: 7%;
+  left: 10%;
+}
+.main-heading {
+  background-image: url(../images/intro\ bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150%;
+  height: auto;
+  margin-left: 60px;
+  font-family: "Lato", sans-serif;
+  display: flex;
+}
+.main-heading h1 {
+  position: relative;
+  top: 20%;
+  left: 76%;
+}
+.name-heading h1 span{
+  height: 12px;
+  width: 12px;
+}
+.aboutmyself-description{
+  margin-right: 50px;
+}
+.style-pic {
+  background-image: url(../images/style\ bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 122px;
+  margin-bottom: 20px;
+}
+.tagline {
+  color: var(--main-color);;
+  font-weight: 100;
+}
+.quote {
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+.quote-author {
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+.socailMedia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.socailMedia a{
+  margin: 10px 0px;
+  font-size: 1.4rem;
+  color: var(--sec-color);
+}
+.socailMedia i:hover{
+  color: var(--main-color);;
+  transform: scale(1.2);
+}
+
+
+/* Swipe Up */
+.swipeUp-btn {
+  background-color: #2f2f2f;
+  border-bottom: none;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: 40px;
+  height: 35px;
+  width: 68%;
+  color: var(--sec-color);
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swipeUp-btn a {
+  text-decoration: none;
+  color: var(--sec-color);
+}
+.swipeUp-btn a:hover {
+  color: #696969;
+}
+
+/* Contact Section */
+.contact-section {
+  width: 100%;
+  height: auto;
+  background-color: #222222;
+
+}
+.contact1 {
+  width: 100%;
+  display: flex;
+}
+.contact-decoration {
+  width: 30%;
+  height: 430px;
+  margin-top: 20px;
+}
+.contact-description {
+  width: 65%;
+  height: 430px;
+  padding: 50px 0px;
+}
+.photo-bg {
+  border: 8px solid var(--main-color);;
+  height: 286px;
+  width: 215px;
+  position: relative;
+  z-index: 1;
+  left: 28%;
+  bottom: 51%;
+}
+.contact-photo {
+  height: 288px;
+  width: 215px;
+  background-image: url(../images/aboutme-photo.PNG);
+  border: 8px solid #2f2f2f;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 10%;
+  left: 34%;
+  z-index: 2;
+}
+.lets-work {
+  width: 70%;
+  display: flex;
+}
+.lets-work input {
+  padding: 8px;
+  width: 60%;
+  border: none;
+  margin-top: 12px;
+  outline: none;
+  border-bottom-left-radius: 3px;
+  border-start-start-radius: 3px;
+  color: rgb(100, 100, 100);
+}
+.lets-work a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  background-color: var(--main-color);;
+  color: var(--sec-color);
+  width: 40px;
+  height: 40px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  font-size: 1.5rem;
+  
+}
+.lets-work a:hover{
+  color:var(--sec-color);
+  transform: scale(1.06);
+}
+.socialMediaLinks a:hover{
+  color: var(--main-color);
+  transform: scale(1.2);
+}
+.socialMediaLinks a{
+  color: var(--sec-color);
+  padding: 4px;
+}
+
+
+/* My Experties */
+
+.exp-col{
+  height: 200px;
+}
+.exp-icons{
+  display: flex;
+}
+.fab1{
+  margin-right:50px;
+  margin-top: 20px;
+}
+.fab1:hover{
+  transform: scale(1.1);
+  color: var(--main-color);
+}
+.fab2{
+  margin-bottom: 40px;
+  border-radius: 7px;
+  font-size: 4rem;
+}
+
+.myexp-div{
+  width: 50%;
+  margin-left: 65px;
+}
+.myexp-vector{
+  width: 40%;
+  height: 585px;
+  background-image: url(../images/myexperties-vetor.svg);
+ background-size: contain;
+ background-repeat: no-repeat;
+}
+
+
+/* My projects */
+
+.my-projects-section{
+  background-color: #1F1F1F;
+  width: 100%;
+
+}
+.my-projects-container{
+  padding-top: 3%;
+}
+
+.card{
+  width: 90%;
+  background-color: transparent !important;
+  border:5px solid #2f2f2f !important;
+}
+.card-text{
+  font-weight: 100 !important;
+  color:gray;
+}
+.btn{
+  background-color: #be503a !important;
+  border: 2px solid rgb(75, 74, 74) !important;
+  color: #ffffff !important;
+  font-weight: 300 !important;
+  width: 100%;
+
+}
+.btn:hover{
+  transform: scale(1.03);
+  border:2px solid #da5c42 !important;
+  background-color: transparent !important;
+}
+
+
+/* Responsivness */
+
+@media all and (max-width:1200px){
+  .navBar-container{
+    font-size: 1.0rem;
+  }
+  .socailMedia a{
+    margin: 13px 0px;
+    font-size: x-large;
+  }
+  .socailMedia{
+    justify-content: flex-start;
+    margin-top: 40px;
+    position: relative;
+    left:35px ;
+  }
+  .main-heading{
+    height: 445px;
+    margin: 0px;
+    width: 163%;
+  }
+  .my-photo{
+    top:30px;
+    left:80px;
+    width: 32%;
+    height: 76%;
+  }
+  .main-heading h1{
+    width: auto;
+    height: auto;
+    top: 106px;
+    left: 175px;
+    font-size: 5.4rem;
+  }
+  .main-heading h1 span{
+    height: 10px;
+    width: 10px;
+  }
+  .swipeUp-btn{
+  display: none;
+  }
+
+  .aboutmyself-description{
+    margin-right: 0px
+  }
+
+  /* My Experties */
+
+  .myexp-div{
+    width: 100%;
+    margin-left: 30px;
+    
+  }
+  .exp-icons{
+    font-size:3.7rem ;
+    justify-content: space-around;
+    height: 100px;
+  }
+  .fab1{
+    margin-right:30px ;
+    margin-top: 0px;
+  }
+  .fab2{
+    margin-bottom: 40px;
+    border-radius: 3px;
+    font-size: 3.4rem;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 17px;
+
+  }
+  .exp-col{
+    height: auto;
+  }
+  .myexp-vector{
+    width: 100%;
+    height: 500px;
+
+  }
+  .card{
+    width: 100%;
+  }
+
+  /* Contact */
+  .contact-section{
+    padding:10px ;
+  }
+  .contact1{
+    margin: 50px;
+  }
+  .contact-description{
+    width: 100%;
+    padding: 0px;
+    height: auto;
+  }
+  .lets-work{
+    width: 100%;
+  }
+  .lets-work input{
+    width: 100%;
+  }
+  .socialMediaLinks a{
+    margin: 0px 15px;
+    font-size: 2.6rem;
+  }
+  .contact-decoration{
+    width: 100%;
+  }
+  .contact-photo{
+    left: 275px;
+    top: 0px;
+
+  }
+  .photo-bg{
+    left:250px;
+    bottom: 260px;
+
+  }
+}
+
+@media all and (max-width:992px){
+  .navBar-container{
+    font-size: 1.0rem;
+  }
+  .socailMedia a{
+    margin: 13px 0px;
+    font-size: x-large;
+  }
+  .socailMedia{
+    justify-content: flex-start;
+    margin-top: 20px;
+    position: relative;
+    left:35px ;
+  }
+  .main-heading{
+    height: 350px;
+    margin: 0px;
+    width: 163%;
+  }
+  .my-photo{
+    top:30px;
+    left:80px;
+    width: 32%;
+    height: 80%;
+  }
+  .main-heading h1{
+    width: auto;
+    height: auto;
+    top: 80px;
+    left: 145px;
+    font-size: 4.2rem;
+  }
+  .main-heading h1 span{
+    height: 8px;
+    width: 8px;
+  }
+  .swipeUp-btn{
+  display: none;
+  }
+
+  .aboutmyself-description{
+    margin-right: 0px
+  }
+
+  /* My Experties */
+
+  .myexp-div{
+    width: 100%;
+    margin-left: 30px;
+    
+  }
+  .exp-icons{
+    font-size:3.7rem ;
+    justify-content: space-around;
+    height: 100px;
+  }
+  .fab1{
+    margin-right:30px ;
+    margin-top: 0px;
+  }
+  .fab2{
+    margin-bottom: 40px;
+    border-radius: 3px;
+    font-size: 3.4rem;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 17px;
+
+  }
+  .exp-col{
+    height: auto;
+  }
+  .myexp-vector{
+    width: 100%;
+    height: 500px;
+
+  }
+  .card{
+    width: 100%;
+  }
+
+  /* Contact */
+  .contact-section{
+    padding: 10px;
+  }
+  .contact1{
+    flex-direction: column;
+  }
+  .contact-description{
+    width: 100%;
+    padding: 0px;
+    height: auto;
+  }
+  .lets-work{
+    width: 100%;
+  }
+  .lets-work input{
+    width: 100%;
+  }
+  .socialMediaLinks a{
+    margin: 0px 15px;
+    font-size: 1.6rem;
+  }
+  .contact-decoration{
+    width: 100%;
+  }
+  .contact-photo{
+    left: 130px;
+    top: 0px;
+
+  }
+  .photo-bg{
+    left:110px;
+    bottom: 265px;
+
+  }
+  .card{
+    width: 100%;
+  }
+}
+
+
+@media all and (max-width:768px){
+  .navBar-container{
+    font-size: 1.0rem;
+  }
+  .intro-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .socailMedia a{
+    margin: 13px 0px;
+    font-size: x-large;
+  }
+  .socailMedia{
+    justify-content: flex-start;
+    margin-top: 20px;
+    position: relative;
+    left:15px ;
+  }
+  .style-pic{
+    display: none;
+  }
+  .main-heading{
+    height: 350px;
+    margin: 0px;
+    width: 100%;
+  }
+  .my-photo{
+    top:25px;
+    left:65px;
+    width: 27%;
+    height: 85%;
+  }
+  .main-heading h1{
+    width: auto;
+    height: auto;
+    top: 80px;
+    left: 93px;
+    font-size: 5.2rem;
+  }
+  .main-heading h1 span{
+    height: 6px;
+    width: 6px;
+  }
+  .swipeUp-btn{
+  display: none;
+  }
+
+  .aboutmyself-description{
+    margin-right: 0px
+  }
+
+  /* My Experties */
+  .myexp-section{
+    flex-direction: column;
+  }
+  .myexp-div{
+    width: 100%;
+    margin: 0px;
+    
+  }
+  .exp-icons{
+    font-size:3.7rem ;
+    justify-content: space-around;
+    height: 100px;
+  }
+  .fab1{
+    margin-right:30px ;
+    margin-top: 0px;
+  }
+  .fab2{
+    margin-bottom: 40px;
+    border-radius: 3px;
+    font-size: 3.4rem;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 17px;
+
+  }
+  .exp-col{
+    height: auto;
+  }
+  .myexp-vector{
+    width: 100%;
+    height: 500px;
+
+  }
+  .card{
+    width: 100%;
+  }
+
+  /* Contact */
+  .contact-section{
+  padding: 10px;
+  }
+  .contact-description{
+    width: 100%;
+    padding: 0px;
+    height: auto;
+  }
+  .lets-work{
+    width: 100%;
+  }
+  .lets-work input{
+    width: 100%;
+  }
+  .socialMediaLinks a{
+    margin: 0px 40px;
+    font-size: 2.6rem;
+  }
+  .contact-decoration{
+    width: 100%;
+  }
+  .contact-photo{
+    left: 282px;
+    top: 21px;
+
+  }
+  .photo-bg{
+    left:260px;
+    bottom: 240px;
+
+  }
+  .card{
+    width: 100%;
+  }
+}
+
+
+@media all and (max-width:548px){
+  .navBar-container{
+    font-size: 0.8rem;
+  }
+  .phone-navbar{
+    display:unset;
+  }
+  .navBar-container{
+    display: none;
+  }
+  .intro-container{
+    flex-direction: column;
+  }
+  .socailMedia a{
+    margin: 10px 0px;
+    font-size: x-large;
+  }
+  .socailMedia{
+    justify-content: flex-start;
+    margin-top: 20px;
+    position: relative;
+    left:15px ;
+  }
+  .style-pic{
+    display: none;
+  }
+  .main-heading{
+    height: 350px;
+    margin: 0px;
+    width: 100%;
+  }
+  .my-photo{
+    top:25px;
+    left:65px;
+    width: 34%;
+    height: 77%;
+  }
+  .main-heading h1{
+    width: auto;
+    height: auto;
+    top: 80px;
+    left: 120px;
+    font-size: 4.2rem;
+  }
+  .main-heading h1 span{
+    height: 5px;
+    width: 5px;
+  }
+  .swipeUp-btn{
+  display: none;
+  }
+
+  .aboutmyself-description{
+    margin-right: 0px
+  }
+
+  /* My Experties */
+  .myexp-section{
+    flex-direction: column;
+  }
+  .myexp-div{
+    width: 100%;
+    margin: 0px;
+    
+  }
+  .exp-icons{
+    font-size:3.7rem ;
+    justify-content: space-around;
+    height: 100px;
+  }
+  .fab1{
+    margin-right:30px ;
+    margin-top: 0px;
+  }
+  .fab2{
+    margin-bottom: 40px;
+    border-radius: 3px;
+    font-size: 3.4rem;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 17px;
+
+  }
+  .exp-col{
+    height: auto;
+  }
+  .myexp-vector{
+    width: 90%;
+    height: 500px;
+
+  }
+  .card{
+    width: 100%;
+  }
+
+  /* Contact */
+  .contact-section{
+    padding: 10px;
+  }
+  .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-description{
+    width: 100%;
+    padding: 0px;
+    height: auto;
+  }
+  .lets-work{
+    width: 100%;
+  }
+  .lets-work input{
+    width: 100%;
+  }
+  .socialMediaLinks a{
+    margin: 0px 15px;
+    font-size: 2.6rem;
+  }
+  .contact-decoration{
+    width: 100%;
+  }
+  .contact-photo{
+    left: 180px;
+  }
+  .photo-bg{
+    left:150px;
+  }
+  .card{
+    width: 100%;
+  }
+}
+
+
+@media all and (max-width:420px){
+  .navBar-container{
+    font-size: 0.8rem;
+  }
+  .phone-navbar{
+    display:unset;
+  }
+  .navBar-container{
+    display: none;
+  }
+  .intro-container{
+    flex-direction: column;
+  }
+  .socailMedia a{
+    margin: 7px 0px;
+    font-size: large;
+  }
+  .socailMedia{
+    justify-content: flex-start;
+    margin-top: 20px;
+    position: relative;
+    left:15px ;
+  }
+  .style-pic{
+    display: none;
+  }
+  .main-heading{
+    height: 250px;
+    margin: 0px;
+    width: 100%;
+  }
+  .my-photo{
+    top:18px;
+    left:40px;
+    width: 34%;
+    height: 77%;
+  }
+  .main-heading h1{
+    width: auto;
+    height: auto;
+    top: 63px;
+    left: 80px;
+    font-size: 3.2rem;
+  }
+  .main-heading h1 span{
+    height: 5px;
+    width: 5px;
+  }
+  .swipeUp-btn{
+  display: none;
+  }
+
+  .aboutmyself-description{
+    margin-right: 0px
+  }
+
+  /* My Experties */
+  .myexp-section{
+    flex-direction: column;
+  }
+  .myexp-div{
+    width: 100%;
+    margin: 0px;
+    
+  }
+  .exp-icons{
+    font-size:2.7rem;
+    justify-content: center;
+    height: 100px;
+  }
+  .fab1{
+    margin-right:30px ;
+    margin-top: 0px;
+  }
+  .fab2{
+    margin-bottom: 40px;
+    border-radius: 3px;
+    font-size: inherit;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 11px;
+
+  }
+  .exp-col{
+    height: auto;
+  }
+  .myexp-vector{
+    width: 90%;
+    height: 350px;
+  }
+
+  /* Contact */
+  .contact-section{
+    padding: 10px;
+  }
+  .contact1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-description{
+    width: 100%;
+    padding: 0px;
+    height: auto;
+  }
+  .lets-work{
+    width: 100%;
+  }
+  .lets-work input{
+    width: 100%;
+  }
+  .socialMediaLinks a{
+    margin: 0px 5px;
+    font-size: 2.2rem;
+  }
+  .contact-decoration{
+    width: 100%;
+  }
+  .contact-photo{
+    left: 110px;
+  }
+  .photo-bg{
+    left:80px;
+  }
+  .card{
+    width: 100%;
+  }
+}
+
+@media all and (max-width:320px){
+  .navBar-container{
+    font-size: 0.8rem;
+  }
+  .phone-navbar{
+    display:unset;
+  }
+  .navBar-container{
+    display: none;
+  }
+  .intro-container{
+    flex-direction: column;
+  }
+  .socailMedia a{
+    margin: 5px 0px;
+    font-size: small;
+  }
+  .socailMedia{
+    justify-content: flex-start;
+    margin-top: 20px;
+    position: relative;
+    left:15px ;
+  }
+  .style-pic{
+    display: none;
+  }
+  .main-heading{
+    height: 250px;
+    margin: 0px;
+    width: 100%;
+  }
+  .my-photo{
+    top:14px;
+    left:36px;
+    width: 34%;
+    height: 62%;
+  }
+  .main-heading h1{
+    width: auto;
+    height: auto;
+    left: 60px;
+    font-size: 2.2rem;
+  }
+  .main-heading h1 span{
+    height: 5px;
+    width: 5px;
+  }
+  .swipeUp-btn{
+  display: none;
+  }
+
+  .aboutmyself-description{
+    margin-right: 0px
+  }
+
+  /* My Experties */
+  .myexp-section{
+    flex-direction: column;
+  }
+  .myexp-div{
+    width: 100%;
+    margin: 0px;
+    
+  }
+  .exp-icons{
+    font-size:1.8rem ;
+    justify-content: center;
+    height: 100px;
+  }
+  .fab1{
+    margin-right:30px ;
+    margin-top: 0px;
+  }
+  .fab2{
+    margin-bottom: 40px;
+    border-radius: 3px;
+    font-size: inherit;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 5px;
+
+  }
+  .exp-col{
+    height: auto;
+  }
+  .myexp-vector{
+    width: 90%;
+    height: 350px;
+
+  }
+
+  /* Contact */
+  .contact-section{
+    padding: 10px;
+  }
+  .contact1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-description{
+    width: 100%;
+    padding: 0px;
+    height: auto;
+  }
+  .lets-work{
+    width: 100%;
+  }
+  .lets-work input{
+    width: 100%;
+  }
+  .socialMediaLinks a{
+    margin: 0px 8px;
+    font-size: 1.5rem;
+  }
+  .contact-decoration{
+    width: 100%;
+  }
+  .contact-photo{
+    left: 55px;
+  }
+  .photo-bg{
+    left:30px;
+  }
+  .card{
+    width: 100%;
+  }
+}
